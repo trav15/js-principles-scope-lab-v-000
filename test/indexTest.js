@@ -16,15 +16,15 @@ describe('Fix the Scope', function() {
       expect(window.customerName).to.equal('BOB');
     });
   });
-  describe('setBestCustomer()', function() {
-    it('setBestCustomer', function() {
-      expect(window.bestCustomer).to.equal(undefined);
+  // describe('setBestCustomer()', function() {
+  //   it('setBestCustomer', function() {
+  //     expect(window.bestCustomer).to.equal(undefined);
 
-      setBestCustomer();
+  //     setBestCustomer();
 
-      expect(window.bestCustomer).to.equal('not bob');
-    });
-  });
+  //     expect(window.bestCustomer).to.equal('not bob');
+  //   });
+  // });
 
   describe('overwriteBestCustomer()', function() {
     it('overwrites the best customer', function() {
